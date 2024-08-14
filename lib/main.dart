@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
       locale: Locale(languageProvider.lang),
       debugShowCheckedModeBanner: false,
       routes: {
-        SplashScreen.routeName: (context) => const SplashScreen(),
+        SplashScreen.routeName: (context) =>  SplashScreen(),
         HomeScreen.routeName: (context) => const HomeScreen(),
         SuraContent.routeName: (context) => const SuraContent(),
         HadethContent.routeName: (context) =>  HadethContent(),
